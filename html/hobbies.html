@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Talent'N'You</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Talent, You, Draw, Photography, Painting, Dance, Music">
+    <meta name="description" content="Lts do what you want to do">
+    <meta charset="UTF-8">
+    <meta name="author" content="Mayank Tiwari">
+    <meta http-equiv="refresh" content="300">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <div class="container">
+      <!-- Modal Structure -->
+   <div id="modal1" class="modal waves-effect waves-light">
+     <div class="modal-content">
+       <h4>Chose your hobbies</h4>
+       <p>You can choose maximum of 3 hobbies to work on at a time. Rest you can follow all after making your profile</p>
+     </div>
+     <div class="modal-footer">
+       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Proceed</a>
+     </div>
+   </div>
+      <form>
+      <div id ="first-row" class="row">
+        <div id="photography" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/photography.jpeg" alt="Photography Card" class="activator" />
+            <span class="card-title activator white-text left-align">Photography</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-photography" name="hobbies" class="hobbies"/>
+            <label for="check-photography">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Photography<i class="material-icons right">close</i>
+            Check this card to share and follow <em>Photography</em> skills around the world.</span>
+          </div>
+        </div>
+        <div id="music" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/music.jpeg" alt="Music Card" class="activator" />
+            <span class="card-title activator white-text left-align">Music</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-music" name="hobbies" class="hobbies"/>
+            <label for="check-music">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Music<i class="material-icons right">close</i>
+            Check this card to share and follow <em>MUsic</em> skills around the world.</span>
+          </div>
+        </div>
+        <div id="fitness-sports" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/fitness-sports.jpeg" alt="Fitness & Sports Card" class="activator" />
+            <span class="card-title activator white-text left-align">Fitness & Sports</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-fitness-sports" name="hobbies" class="hobbies"/>
+            <label for="check-fitness-sports">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Fitness & Sports<i class="material-icons right">close</i>
+            Check this card to share and follow <em>Fitness & Sports</em> skills around the world.</span>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="second-row">
+        <div id="painting" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/painting.jpeg" alt="Painting Card" class="activator" />
+            <span class="card-title activator white-text left-align">Painting</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-painting" name="hobbies" class="hobbies"/>
+            <label for="check-painting">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Painting<i class="material-icons right">close</i>
+            Check this card to share and follow <em>Painting</em> skills around the world.</span>
+          </div>
+        </div>
+        <div id="writing" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/writing.jpeg" alt="Writing Card" class="activator" />
+            <span class="card-title activator white-text left-align">Writing</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-writing" name="hobbies" class="hobbies"/>
+            <label for="check-writing">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Writing<i class="material-icons right">close</i>
+            Check this card to share and follow <em>Writing</em> skills around the world.</span>
+          </div>
+        </div>
+        <div id="dancing" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/dancing.jpeg" alt="Dancing Card" class="activator" />
+            <span class="card-title activator white-text left-align">Dancing</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-dancing" name="hobbies" class="hobbies"/>
+            <label for="check-dancing">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Dancing<i class="material-icons right">close</i>
+            Check this card to share and follow <em>Dancing</em> skills around the world.</span>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="third-row">
+        <div id="carpentory" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/carpentory.jpeg" alt="Carpentory Card" class="activator" />
+            <span class="card-title activator white-text left-align">Carpentory</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-carpentory" name="hobbies" class="hobbies"/>
+            <label for="check-carpentory">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Carpentory<i class="material-icons right">close</i>
+            Check this card to share and follow <em>Carpentory</em> skills around the world.</span>
+          </div>
+        </div>
+        <div id="computers-electronics" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/computers-electronics.jpeg" alt="Computer & Electronics Card" class="activator" />
+            <span class="card-title activator white-text left-align">Computer & Electronics</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-computers-electronics" name="hobbies" class="hobbies"/>
+            <label for="check-computers-electronics">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Computer & Electronics<i class="material-icons right">close</i>
+            Check this card to share and follow <em>Computer & Electronics</em> skills around the world.</span>
+          </div>
+        </div>
+        <div id="healthy-cooking" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/healthy-cooking.jpeg" alt="Healthy Cooking Card" class="activator" />
+            <span class="card-title activator white-text left-align">Healthy Cooking</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-healthy-cooking" name="hobbies" class="hobbies"/>
+            <label for="check-healthy-cooking">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Healthy Cooking<i class="material-icons right">close</i>
+            Check this card to share and follow <em>Healthy Cooking</em> skills around the world.</span>
+          </div>
+        </div>
+      </div>
+    <!--  <div class="row" id="forth-row">
+        <div id="bird-watching" class="card  col s12 m4 l4 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img src="../img/bird-watching.jpeg" alt="Bird Watching Card" class="activator" />
+            <span class="card-title activator white-text left-align">Bird Watching</span>
+          </div>
+          <div class="card-action">
+            <input type="checkbox" id="check-bird-watching" name="hobbies" class="hobbies"/>
+            <label for="check-bird-watching">This is my hobby<label>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Bird Watching<i class="material-icons right">close</i>
+            Check this card to share and follow <em>Bird Watching</em> skills around the world.</span>
+          </div>
+        </div>-->
+      </div>
+      </form>
+      <p><a href="userProfile.html"><i class="material-icons prefix">navigate_next</i>Next</a></p>
+    </div>
+    <script>
+     $(document).ready(function(){
+         $('#modal1').openModal();
+         var inputElems = document.getElementsByTagName("input");
+         count = 0;
+         for(var i = 0; i < inputElems.length; i ++){
+           if(inputElems[i].type == "checkbox"){
+            inputElems[i].onclick
+             };
+            };
+     });
+    </script>
+  </body>
+</html>
